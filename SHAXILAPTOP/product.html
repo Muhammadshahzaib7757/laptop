@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .product-data-title{
+    color: #8E8E8E;}
+    .out-of-stock{
+    color: #e40613 !important;}
+    .product-data{
+        font-weight: 500;
+    }
+    .price{
+    border: 0px;
+    margin: 0px;
+    padding: 5px 0pc;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-primary text-white navbar-dark ">
+        <img src="images/logo.PNG" style="width: 15vw;">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3   text-white" href="LAPTOP.HTML">Home</a>
+
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link pl-3 pr-3   text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3   text-white" href="product.html">Product</a>
+                </li>
+               
+               
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3   text-white" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3   text-white" href="faqs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3  text-white" href="new arrival.html">New Aaival</a>
+                </li>
+               
+                
+
+            </ul>
+            <button type="button" class="btn btn-secondary">
+                GET IN TOUCH
+            </button>
+        </div>
+    </nav>
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+           
+        </ol>
+        <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active">
+                <img class="img-fluid" src="images/11.jpg" height="500px" width="100%"
+                    alt="First slide">
+      
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="images/13.jpg" height="500px" width="100%"
+                    alt="Second slide">
+            </div>
+            
+            
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      
+        </a>
+      </div>
+    <div class="container">
+        <h1 class="text-center pt-3" style="font-size: 73px;"><a href="#" id="rptListView_ctl00_anProductName">Product</a></h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/pngtree-laptop-icon-png-image_5184713.jpg" class="img-fluid d-block mx-auto">
+            </div>
+            <div class="col-sm-4 mt-5">
+                <h4><a href="#" id="rptListView_ctl00_anProductName">Dell Inspiron 15 3593 Laptop - 10th Gen Ci3, 4GB, 1TB HDD, 15.6" HD, Silver</a></h4>
+                <p id="rptListView_ctl00_spnProductDesc">Dell 3593 | 15" laptop that meets all your everyday needs and looks good doing it. Featuring 10th generation Intel® processors and an array of ports.</p>
+                <ul>
+                    <li>Intel Core i3-1005G1 Processor</li>
+                    <li>4GB DDR4 Memory | 1TB 5400 rpm 2.5" SATA HDD</li>
+                    <li>Intel® UHD Graphics</li>
+                    <li>Ubuntu</li>
+                </ul>
+            </div>
+            <div class="col-sm-4 mt-5">
+                <span class="product-data-title">Availability: </span>
+                <span id="rptListView_ctl00_spnStockStatus" class="product-data out-of-stock">Out of Stock</span>
+                <div id="rptListView_ctl00_divPrice" name="list-price" class="price">
+                    <span id="rptListView_ctl00_spnPrice">Rs.79,500</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/lenovo.jpeg" class="img-fluid d-block mx-auto">
+            </div>
+            <div class="col-sm-4 mt-5">
+                <h4><a href="#" id="rptListView_ctl00_anProductName">Lenovo Inspiron 15 3593 Laptop - 10th Gen Ci3, 4GB, 1TB HDD, 15.6" HD, Silver</a></h4>
+                <p id="rptListView_ctl00_spnProductDesc">Dell 3593 | 15" laptop that meets all your everyday needs and looks good doing it. Featuring 10th generation Intel® processors and an array of ports.</p>
+                <ul>
+                    <li>Intel Core i3-1005G1 Processor</li>
+                    <li>4GB DDR4 Memory | 1TB 5400 rpm 2.5" SATA HDD</li>
+                    <li>Intel® UHD Graphics</li>
+                    <li>Ubuntu</li>
+                </ul>
+            </div>
+            <div class="col-sm-4 mt-5">
+                <span class="product-data-title">Availability: </span>
+                <span id="rptListView_ctl00_spnStockStatus" class="product-data out-of-stock">Out of Stock</span>
+                <div id="rptListView_ctl00_divPrice" name="list-price" class="price">
+                    <span id="rptListView_ctl00_spnPrice">Rs.79,500</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/1 dell.jpeg" class="img-fluid d-block mx-auto">
+            </div>
+            <div class="col-sm-4 mt-5">
+                <h4><a href="#" id="rptListView_ctl00_anProductName">Dell Inspiron 15 3593 Laptop - 10th Gen Ci3, 4GB, 1TB HDD, 15.6" HD, Silver</a></h4>
+                <p id="rptListView_ctl00_spnProductDesc">Dell 3593 | 15" laptop that meets all your everyday needs and looks good doing it. Featuring 10th generation Intel® processors and an array of ports.</p>
+                <ul>
+                    <li>Intel Core i3-1005G1 Processor</li>
+                    <li>4GB DDR4 Memory | 1TB 5400 rpm 2.5" SATA HDD</li>
+                    <li>Intel® UHD Graphics</li>
+                    <li>Ubuntu</li>
+                </ul>
+            </div>
+            <div class="col-sm-4 mt-5">
+                <span class="product-data-title">Availability: </span>
+                <span id="rptListView_ctl00_spnStockStatus" class="product-data out-of-stock">Out of Stock</span>
+                <div id="rptListView_ctl00_divPrice" name="list-price" class="price">
+                    <span id="rptListView_ctl00_spnPrice">Rs.79,500</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>   
+                                
+
+      
+
+    <!-- Footer -->
+  <footer class="page-footer font-small bg-primary mt-5">
+  
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase text-white mt-5">Shaxi Laptop</h5>
+          <p class="text-white">The best Laptop shop in Karachi since 2000.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase text-white mt-5">Product</h5>
+  
+          <ul class="list-unstyled text-white">
+            <li>
+              <a class="text-white" href="#!">Dell</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Hp</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Lenovo</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Apply</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase text-white mt-5">Visit</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="LAPTOP.HTML">Home</a>
+            </li>
+            <li>
+              <a class="text-white" href="about.html">About</a>
+            </li>
+            <li>
+              <a class="text-white" href="product.html">Product</a>
+            </li>
+            <li>
+              <a class="text-white" href="faqs.html">FAQs</a>
+            </li>
+            <li>
+              <a class="text-white" href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="text-white" href="new arrival.html">New Arrival</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center  text-white py-3">© 2020 Copyright:
+      <a class="text-white"  href="shaxilaptop"> shaxilaptop</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+        </div>
+    </div>
+
+
+   
+    
+</body>
+</html>
